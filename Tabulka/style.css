@@ -1,3 +1,23 @@
-tr, th, td {
+table {
     border: 1px solid black;
+    border-collapse: collapse;
 }
+
+td {
+    
+    height: 16px;
+    width: 100px;
+    background-color: aqua;
+
+}
+
+th {
+   background-color: aqua; 
+}
+
+tr {
+    
+}
+
+
+    
