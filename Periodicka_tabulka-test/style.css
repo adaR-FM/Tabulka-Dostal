@@ -1,5 +1,5 @@
 table {
-    border-collapse: collapse; /* Sloučení čar pro čistotu */
+    border-collapse: collapse;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,6 +36,31 @@ table {
     border: 1px solid black;
     background-color: rgb(255,255,0)
 }
+
+.alkalicke_kovy_borderless {
+    background-color: rgb(255,129,129);
+}
+.kovy_alkalickych_zemin_borderless {
+    background-color: rgb(255,192,0);
+}
+.prechodne_kovy_borderless {
+    background-color: rgb(225,195,255);
+}
+.kovy_borderless {
+    background-color: rgb(153,204,255)
+}
+.polokovy_borderless {
+    background-color: rgb(204,255,255)
+}
+.nekovy_borderless {
+    background-color: rgb(175,241,103)
+}
+.halogeny_borderless {
+    background-color: rgb(0,204,255)
+}
+.vzacne_plyny_borderless {
+    background-color: rgb(255,255,0)
+}
 .ostatni {
     border: 1px solid black;
 }
@@ -51,7 +76,14 @@ table {
     text-align: center;
     padding: 10px;
 }
-
+.alkalicke_kovy_borderless, .kovy_alkalickych_zemin_borderless, .prechodne_kovy_borderless, 
+.kovy_borderless, .polokovy_borderless, .nekovy_borderless, .halogeny_borderless, .vzacne_plyny_borderless {
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-weight: normal;
+}
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
